@@ -29,7 +29,7 @@ func New(log *slog.Logger) http.HandlerFunc {
 			return
 		}
 
-		file, fileHeader, err := r.FormFile("fileToSend")
+		file, fileHeader, err := r.FormFile("file")
 		if err != nil {
 			log.Error("Unable to get file from form", sl.Err(err))
 
