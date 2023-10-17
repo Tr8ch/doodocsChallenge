@@ -36,12 +36,11 @@ run:
 	$(GO) run $(SRC_DIR)
 
 help:
-	@echo "Использование:"
-	@echo "  make build    - Сборка исполняемого файла"
-	@echo "  make deps     - Установка зависимостей"
-	@echo "  make clean    - Очистка временных файлов"
-	@echo "  make test     - Запуск тестов"
-	@echo "  make run      - Запуск программы"
-	@echo "  make help     - Это сообщение"
+	@echo "Using:"
+	@echo "  make build    - Assembling the executable file"
+	@echo "  make deps     - Installing dependencies"
+	@echo "  make clean    - Cleaning temporary files"
+	@echo "  make run      - Running the program"
+	@echo "  make help     - This is the message"
 
 default: help
